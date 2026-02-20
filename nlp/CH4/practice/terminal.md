@@ -57,7 +57,7 @@ OPENAI_API_KEY=sk-sua-chave-aqui
 ### Ingestão no Qdrant
 
 ```bash
-python src/ingestion.py
+python3 src/ingestion.py
 ```
 
 ### Avaliação de métricas (100 primeiros IDs)
@@ -69,13 +69,13 @@ python3 src/metrics.py
 ### Teste de RAG via terminal
 
 ```bash
-python src/rag.py
+python3 src/rag.py
 ```
 
 ### Subir API
 
 ```bash
-python src/api.py
+python3 src/api.py
 ```
 
 ## 8) Testar endpoint da API
